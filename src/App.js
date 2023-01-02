@@ -57,7 +57,7 @@ const QuoteBox = ({ quote, handleNewQuote }) => (
           New Quote
       </button>  
       <button className='button'>  
-        <a href='https://twitter.com/intent/tweet' id='tweet-quote' target='_blank'>
+        <a href='https://twitter.com/intent/tweet' id='tweet-quote' target='_blank' rel="noreferrer">
           Tweet
         </a>
       </button>       
