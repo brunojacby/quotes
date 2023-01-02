@@ -5,14 +5,53 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
-  background-color: black;
+  font-family: sans-serif;
 }
 
+h2 {
+  font-size: 20px;
+  margin: 15px 0;
+  color: gray;
+}
+
+p {
+  font-size: 20px;
+}
 .App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: lightseagreen;
+}
+
+#quote-box {
+  width: 450px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+}
+
+#tweet-quote {    
+  text-decoration: none;
   color: white;  
+}
+
+.button {
+  margin-left: 20px;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid darkcyan;
+  border-radius: 7px;
+  text-transform: uppercase;
+  background-color: darkcyan;
+  cursor: pointer;
 }
